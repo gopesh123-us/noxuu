@@ -1,3 +1,15 @@
+.primary-overlay {
+  background: rgb(112, 81, 176, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /*don't want scrollbars showing up*/
+
+}
+
 .main-header {
   background: url(../img//background_13.jpg);
   background-size: cover;
@@ -17,4 +29,15 @@
 
 .section-icons {
   padding-top: 50px;
+}
+
+.section-developers {
+  position: relative;
+  background: url(../img/code.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 180px;
+
 }
